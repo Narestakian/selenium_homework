@@ -1,4 +1,5 @@
 
+import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -9,7 +10,8 @@ import java.time.Duration;
 import java.util.List;
 
 public class WebFormsTest {
-    public static void main(String[] args) {
+    @Test
+    public void Task3() {
         System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver-win64/chromedriver-win64/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
 
