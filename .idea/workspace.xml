@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b15e0edb-b7b1-4bdf-83b4-f4c3878a2ff9" name="Changes" comment="added files">
-      <change afterPath="$PROJECT_DIR$/src/main/java/WaitsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="b15e0edb-b7b1-4bdf-83b4-f4c3878a2ff9" name="Changes" comment="added WaitsTest class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/WebFormsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +42,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.WebFormsTest.executor": "Run",
     "JUnit.WaitsTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -66,6 +65,13 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration name="WebFormsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WebFormsTest" />
+      <module name="selenium-homework" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CommandsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-homework" />
       <option name="PACKAGE_NAME" value="" />
@@ -91,6 +97,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WebFormsTest" />
         <item itemvalue="TestNG.CommandsTest" />
         <item itemvalue="TestNG.CommandsTest.Task1" />
       </list>
@@ -110,7 +117,7 @@
       <workItem from="1733047522458" duration="2766000" />
       <workItem from="1733204258709" duration="2471000" />
       <workItem from="1733309797413" duration="3381000" />
-      <workItem from="1733377015325" duration="9767000" />
+      <workItem from="1733377015325" duration="21171000" />
     </task>
     <task id="LOCAL-00001" summary="added files">
       <option name="closed" value="true" />
@@ -120,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733376545874</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added WaitsTest class">
+      <option name="closed" value="true" />
+      <created>1733393977982</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733393977982</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +154,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added files" />
-    <option name="LAST_COMMIT_MESSAGE" value="added files" />
+    <MESSAGE value="added WaitsTest class" />
+    <option name="LAST_COMMIT_MESSAGE" value="added WaitsTest class" />
   </component>
 </project>
