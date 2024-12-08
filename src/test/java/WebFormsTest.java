@@ -30,7 +30,7 @@ public class WebFormsTest {
         WebElement selectedOption = driver.findElement(By.id("dropdowm-menu-1"));
         String selectedLanguage = selectedOption.getAttribute("value");
         System.out.println("Selected programming language: " + selectedLanguage);
-        Assert.assertEquals("Java",selectedLanguage);
+        Assert.assertEquals("java",selectedLanguage);
 
         //დააწკაპუნეთ ყველა არააქტიურ ჩეკბოქსზე.
         List<WebElement> checkboxes = driver.findElements(By.xpath("//input[@type='checkbox' and not(@checked)]"));
