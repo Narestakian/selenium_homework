@@ -14,7 +14,7 @@ public class ScrollDownTest {
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
 
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
         driver.get("https://the-internet.herokuapp.com/infinite_scroll");
         Thread.sleep(5000);
         JavascriptExecutor js = (JavascriptExecutor) driver;

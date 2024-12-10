@@ -1,5 +1,6 @@
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -19,20 +20,28 @@ public class WaitsTest {
         //გახსენით Chrome ბრაუზერი.
         //გადადით https://demoqa.com/progress-bar მისამართზე
         driver.get("https://demoqa.com/progress-bar");
+        driver.manage().window().maximize();
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+
 
         // იპოვე Start ღილაკი და დააკლიკე
-        driver.findElement(By.id("startStopButton")).click();
+        WebElement startButton = driver.findElement(By.id("startStopButton"));
+        js.executeScript("arguments[0].scrollIntoView(true);", startButton);
+        startButton.click();
+        Assert.assertTrue(startButton.isDisplayed(), "Start button is not displayed!");
+
+
 
 
         // დაელოდე 15 წამი, სანამ  პროგრეს ბარი მიაღწევს 100%-ს
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.textToBe(By.xpath("//*[@id=\"progressBar\"]/div"), "100%"));
 
         //მიწვდი და დაბეჭდე პროგრეს ბარიდან 100%
         WebElement progressBar = driver.findElement(By.xpath("//*[@id=\"progressBar\"]/div"));
         String progressText = progressBar.getText();
-        Assert.assertTrue(progressText.equals("100%"));
+        Assert.assertEquals("100%", progressText);
         System.out.println(progressText);
-        driver.close();
+        driver.quit();
     }
 }
