@@ -11,6 +11,7 @@ import java.time.Duration;
 
 public class WaitsTest {
 
+
     @Test
     public void Task2() {
         System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver-win64/chromedriver-win64/chromedriver.exe");
