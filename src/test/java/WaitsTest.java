@@ -1,5 +1,6 @@
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -18,9 +19,13 @@ public class WaitsTest {
         //გახსენით Chrome ბრაუზერი.
         //გადადით https://demoqa.com/progress-bar მისამართზე
         driver.get("https://demoqa.com/progress-bar");
+        driver.manage().window().maximize();
 
         // იპოვე Start ღილაკი და დააკლიკე
-        driver.findElement(By.id("startStopButton")).click();
+        JavascriptExecutor js=  (JavascriptExecutor) driver;
+        js.executeScript("window.scrollTo(0, document.body.scrollHeight);");
+       WebElement startButton =  driver.findElement(By.id("startStopButton"));
+       startButton.click();
 
         // დაელოდე 15 წამი, სანამ  პროგრეს ბარი მიაღწევს 100%-ს
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
