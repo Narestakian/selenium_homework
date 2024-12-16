@@ -6,6 +6,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+
 import java.time.Duration;
 import java.util.List;
 
@@ -29,6 +31,15 @@ public class WebFormsTest {
         WebElement selectedOption = driver.findElement(By.id("dropdowm-menu-1"));
         String selectedLanguage = selectedOption.getAttribute("value");
         System.out.println("Selected programming language: " + selectedLanguage);
+        Assert.assertEquals("java",selectedLanguage);
+
+        //დააწკაპუნეთ ყველა არააქტიურ ჩეკბოქსზე.
+        List<WebElement> checkboxes = driver.findElements(By.xpath("//input[@type='checkbox' and not(@checked)]"));
+        Assert.assertFalse(checkboxes.isEmpty());
+        for (WebElement checkbox : checkboxes) {
+            System.out.println("Unchecked checkbox:" + checkbox.getAttribute("value"));
+            }
+
 
         //დააწკაპუნეთ ყველა არააქტიურ ჩეკბოქსზე.
         List<WebElement> checkboxes = driver.findElements(By.xpath("//input[@type='checkbox' and not(@disabled)]"));
@@ -44,6 +55,7 @@ public class WebFormsTest {
         //"Selected & Disabled" განყოფილებაში შეამოწმეთ, რომ "Orange" ვარიანტი ჩამოსაშლელ სიაში არის გამორთული
         WebElement orangeOption = driver.findElement(By.xpath("//select[@id='fruit-selects']/option[text()='Orange']"));
         boolean isOrangeOptionDisabled = !orangeOption.isEnabled();
+        Assert.assertTrue(isOrangeOptionDisabled);
         System.out.println("'Orange' option is disabled " + isOrangeOptionDisabled);
         driver.close();
 

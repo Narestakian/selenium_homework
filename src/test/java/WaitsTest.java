@@ -6,10 +6,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
 import java.time.Duration;
 
 public class WaitsTest {
+
+
     public static WebDriver driver;
 
     @Test
@@ -20,6 +23,20 @@ public class WaitsTest {
         //გადადით https://demoqa.com/progress-bar მისამართზე
         driver.get("https://demoqa.com/progress-bar");
         driver.manage().window().maximize();
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+
+
+        // იპოვე Start ღილაკი და დააკლიკე
+        WebElement startButton = driver.findElement(By.id("startStopButton"));
+        js.executeScript("arguments[0].scrollIntoView(true);", startButton);
+        startButton.click();
+        Assert.assertTrue(startButton.isDisplayed(), "Start button is not displayed!");
+
+
+
+
+        // დაელოდე 15 წამი, სანამ  პროგრეს ბარი მიაღწევს 100%-ს
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
         // იპოვე Start ღილაკი და დააკლიკე
         JavascriptExecutor js=  (JavascriptExecutor) driver;
@@ -34,6 +51,9 @@ public class WaitsTest {
         //მიწვდი და დაბეჭდე პროგრეს ბარიდან 100%
         WebElement progressBar = driver.findElement(By.xpath("//*[@id=\"progressBar\"]/div"));
         String progressText = progressBar.getText();
+        Assert.assertEquals("100%", progressText);
+        System.out.println(progressText);
+        driver.quit();
         System.out.println(progressText);
         driver.close();
     }
