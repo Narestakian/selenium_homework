@@ -7,6 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+
 import java.time.Duration;
 import java.util.List;
 
@@ -39,6 +40,14 @@ public class WebFormsTest {
             System.out.println("Unchecked checkbox:" + checkbox.getAttribute("value"));
             }
 
+
+        //დააწკაპუნეთ ყველა არააქტიურ ჩეკბოქსზე.
+        List<WebElement> checkboxes = driver.findElements(By.xpath("//input[@type='checkbox' and not(@disabled)]"));
+        for (WebElement checkbox : checkboxes) {
+            if (!checkbox.isSelected()) {
+                checkbox.click();
+            }
+        }
 
         //დააწკაპუნეთ "Yellow" რადიო ღილაკზე.
         driver.findElement(By.xpath("//*[@id=\"radio-buttons\"]/input[3]")).click();

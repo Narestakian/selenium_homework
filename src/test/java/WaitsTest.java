@@ -13,6 +13,8 @@ import java.time.Duration;
 public class WaitsTest {
 
 
+    public static WebDriver driver;
+
     @Test
     public void Task2() {
         System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver-win64/chromedriver-win64/chromedriver.exe");
@@ -35,6 +37,15 @@ public class WaitsTest {
 
         // დაელოდე 15 წამი, სანამ  პროგრეს ბარი მიაღწევს 100%-ს
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+
+        // იპოვე Start ღილაკი და დააკლიკე
+        JavascriptExecutor js=  (JavascriptExecutor) driver;
+        js.executeScript("window.scrollTo(0, document.body.scrollHeight);");
+       WebElement startButton =  driver.findElement(By.id("startStopButton"));
+       startButton.click();
+
+        // დაელოდე 15 წამი, სანამ  პროგრეს ბარი მიაღწევს 100%-ს
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
         wait.until(ExpectedConditions.textToBe(By.xpath("//*[@id=\"progressBar\"]/div"), "100%"));
 
         //მიწვდი და დაბეჭდე პროგრეს ბარიდან 100%
@@ -43,5 +54,7 @@ public class WaitsTest {
         Assert.assertEquals("100%", progressText);
         System.out.println(progressText);
         driver.quit();
+        System.out.println(progressText);
+        driver.close();
     }
 }
