@@ -26,7 +26,6 @@ public class RobotTest {
             WebElement firstResult = driver.findElement(By.xpath("(//h3)[1]/.."));
             if (firstResult.isDisplayed() && firstResult.isEnabled()){
                 break;
-
             }
         }
             driver.quit();
