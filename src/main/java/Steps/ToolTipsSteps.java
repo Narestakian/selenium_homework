@@ -11,8 +11,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
 public class ToolTipsSteps {
-    private final WebDriver driver;
-    private final WebDriverWait wait;
+    public WebDriver driver;
+    public WebDriverWait wait;
 
     public ToolTipsSteps(WebDriver driver) {
         this.driver = driver;
