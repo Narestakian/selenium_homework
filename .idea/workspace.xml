@@ -5,17 +5,65 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b15e0edb-b7b1-4bdf-83b4-f4c3878a2ff9" name="Changes" comment="added in src directory test file">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Elements/ActiveManipulationElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Elements/DragAndDropElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Elements/GoogleElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Elements/InfiniteScrollElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Elements/ProgressBarPageElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Elements/SeleniumPageElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Elements/TextBoxPageElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Elements/ToolTipsElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Elements/WebFormsPageElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Elements/WebTablesPageElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Steps/ActiveManipulationSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Steps/DragAndDropSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Steps/GoogleSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Steps/InfiniteScrollSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Steps/ProgressBarPageSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Steps/SeleniumPageSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Steps/TextBoxPageSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Steps/ToolTipsSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Steps/WebFormsPageSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Steps/WebTablesPageSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/SetUpClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/testNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/chromedriver-win64/chromedriver-win64/LICENSE.chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/chromedriver-win64/LICENSE.chromedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/chromedriver-win64/chromedriver-win64/THIRD_PARTY_NOTICES.chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/chromedriver-win64/THIRD_PARTY_NOTICES.chromedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/chromedriver-win64/chromedriver-win64/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/chromedriver-win64/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CommandsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CommandsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HoverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HoverTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RobotTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RobotTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ScrollDownTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ScrollDownTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ScrollHeightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ScrollHeightTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SubmitActionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SubmitActionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/WaitsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WaitsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WebFormsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebFormsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WebTablesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebTablesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/allTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chromedriver-win64/chromedriver-win64/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ScrollDownTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ScrollDownTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ScrollHeightTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ScrollHeightTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SubmitActionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SubmitActionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/WaitsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WaitsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/WebFormsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WebFormsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/allTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -36,6 +84,7 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2pVpxLryC9iHBNdtiKRWiAYXrRH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,26 +99,32 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.CommandsTest.Task1.executor": "Run",
     "TestNG.CommandsTest.executor": "Run",
-    "git-widget-placeholder": "commands/day2",
+    "TestNG.WaitsTest.Task2.executor": "Run",
+    "git-widget-placeholder": "commands/day4",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/narestakian/Desktop/selenium-homework/src/main/resources",
+    "last_opened_file_path": "C:/Users/narestakian/Desktop/selenium_homework_axali/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Utils" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\narestakian\Desktop\selenium_homework_axali\src\main\resources" />
       <recent name="C:\Users\narestakian\Desktop\selenium-homework\src\main\resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.HoverTest.hoverWithStableScroll">
     <configuration name="WebFormsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="WebFormsTest" />
       <module name="selenium-homework" />
@@ -100,13 +155,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HoverTest.hoverWithStableScroll" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-homework" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HoverTest" />
+      <option name="METHOD_NAME" value="hoverWithStableScroll" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WaitsTest.Task2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-homework" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WaitsTest" />
+      <option name="METHOD_NAME" value="Task2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HoverTest.hoverWithStableScroll" />
         <item itemvalue="TestNG.CommandsTest.Task1" />
+        <item itemvalue="TestNG.WaitsTest.Task2" />
         <item itemvalue="TestNG.CommandsTest" />
         <item itemvalue="Application.WebFormsTest" />
-        <item itemvalue="Application.WebFormsTest" />
-        <item itemvalue="TestNG.CommandsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -125,6 +204,8 @@
       <workItem from="1733204258709" duration="2471000" />
       <workItem from="1733309797413" duration="3381000" />
       <workItem from="1733377015325" duration="21171000" />
+      <workItem from="1734531174907" duration="799000" />
+      <workItem from="1734594466300" duration="24004000" />
     </task>
     <task id="LOCAL-00001" summary="added files">
       <option name="closed" value="true" />

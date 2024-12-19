@@ -1,64 +1,26 @@
-
-import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import Steps.WebFormsPageSteps;
+import Utils.SetUpClass;
 import org.testng.Assert;
+import org.testng.annotations.Test;
 
-import java.time.Duration;
-import java.util.List;
-
-public class WebFormsTest {
+public class WebFormsTest extends SetUpClass {
     @Test
     public void Task3() {
-        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver-win64/chromedriver-win64/chromedriver.exe");
-        WebDriver driver = new ChromeDriver();
 
-        //გახსენი ბრაუზე და გადადი URL-ზე
         driver.get("https://webdriveruniversity.com/Dropdown-Checkboxes-RadioButtons/index.html");
 
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
-
-        //აირჩიეთ პროგრამირების ენა გამოსახული ჩამოსაშლელი სიიდან და შეამოწმეთ რომ სწორად შეირჩა
-        WebElement dropdown = driver.findElement(By.id("dropdowm-menu-1"));
-        wait.until(ExpectedConditions.elementToBeClickable(dropdown));
-        dropdown.click();
-        WebElement option = driver.findElement(By.xpath("//select[@id='dropdowm-menu-1']/option[text()='JAVA']"));
-        option.click();
-        WebElement selectedOption = driver.findElement(By.id("dropdowm-menu-1"));
-        String selectedLanguage = selectedOption.getAttribute("value");
+        WebFormsPageSteps steps = new WebFormsPageSteps(driver);
+        steps.selectProgrammingLanguage();
+        String selectedLanguage = steps.getSelectedLanguage();
         System.out.println("Selected programming language: " + selectedLanguage);
-        Assert.assertEquals("java",selectedLanguage);
+        Assert.assertEquals(selectedLanguage, "java");
 
-        //დააწკაპუნეთ ყველა არააქტიურ ჩეკბოქსზე.
-        List<WebElement> checkboxes = driver.findElements(By.xpath("//input[@type='checkbox' and not(@checked)]"));
-        Assert.assertFalse(checkboxes.isEmpty());
-        for (WebElement checkbox : checkboxes) {
-            System.out.println("Unchecked checkbox:" + checkbox.getAttribute("value"));
-            }
+        steps.clickAllActiveCheckboxes();
+        steps.selectYellowRadioButton();
 
-
-        //დააწკაპუნეთ ყველა არააქტიურ ჩეკბოქსზე.
-        List<WebElement> checkboxes = driver.findElements(By.xpath("//input[@type='checkbox' and not(@disabled)]"));
-        for (WebElement checkbox : checkboxes) {
-            if (!checkbox.isSelected()) {
-                checkbox.click();
-            }
-        }
-
-        //დააწკაპუნეთ "Yellow" რადიო ღილაკზე.
-        driver.findElement(By.xpath("//*[@id=\"radio-buttons\"]/input[3]")).click();
-
-        //"Selected & Disabled" განყოფილებაში შეამოწმეთ, რომ "Orange" ვარიანტი ჩამოსაშლელ სიაში არის გამორთული
-        WebElement orangeOption = driver.findElement(By.xpath("//select[@id='fruit-selects']/option[text()='Orange']"));
-        boolean isOrangeOptionDisabled = !orangeOption.isEnabled();
-        Assert.assertTrue(isOrangeOptionDisabled);
-        System.out.println("'Orange' option is disabled " + isOrangeOptionDisabled);
-        driver.close();
-
+        boolean isOrangeOptionDisabled = steps.isOrangeOptionDisabled();
+        Assert.assertTrue(isOrangeOptionDisabled, "'Orange' option is not disabled");
+        System.out.println("'Orange' option is disabled: " + isOrangeOptionDisabled);
     }
-
 }
+
