@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b15e0edb-b7b1-4bdf-83b4-f4c3878a2ff9" name="Changes" comment="added WebTablesTest file in POM Selenide structure">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ElementsSelenide/ActionClassTestElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StepsSelenide/ActionClassTestSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ActionClassTest.java" afterDir="false" />
+    <list default="true" id="b15e0edb-b7b1-4bdf-83b4-f4c3878a2ff9" name="Changes" comment="added ActionClassTest file in POM Selenide structure">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ElementsSelenide/RobotClassTestElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StepsSelenide/RobotClassTestSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RobotClassTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/testNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/testNG.xml" afterDir="false" />
     </list>
@@ -57,6 +57,7 @@
     "TestNG.C:/Users/narestakian/Desktop/selenium_homework_axali/src/main/testNG.xml.executor": "Run",
     "TestNG.CommandsTest.Task1.executor": "Run",
     "TestNG.CommandsTest.executor": "Run",
+    "TestNG.RobotClassTest.Task3.executor": "Run",
     "TestNG.SetUpClass.testExample.executor": "Run",
     "TestNG.WebTablesTest.Task1.executor": "Run",
     "TestNG.WebTablesTest.executor": "Run",
@@ -99,22 +100,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CommandsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CommandsTest.Task1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-homework" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CommandsTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="METHOD_NAME" value="Task1" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CommandsTest.Task1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RobotClassTest.Task3" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-homework" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CommandsTest" />
-      <option name="METHOD_NAME" value="Task1" />
+      <option name="MAIN_CLASS_NAME" value="RobotClassTest" />
+      <option name="METHOD_NAME" value="Task3" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -154,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.RobotClassTest.Task3" />
         <item itemvalue="TestNG.ActionClassTest.Task2" />
         <item itemvalue="TestNG.WebTablesTest.Task1" />
         <item itemvalue="TestNG.SetUpClass.testExample" />
         <item itemvalue="TestNG.CommandsTest.Task1" />
-        <item itemvalue="TestNG.CommandsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +186,7 @@
       <workItem from="1734789180864" duration="11144000" />
       <workItem from="1734954983092" duration="377000" />
       <workItem from="1734955386823" duration="1800000" />
-      <workItem from="1734957205976" duration="11752000" />
+      <workItem from="1734957205976" duration="15468000" />
     </task>
     <task id="LOCAL-00001" summary="added files">
       <option name="closed" value="true" />
@@ -218,7 +220,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735023528015</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added ActionClassTest file in POM Selenide structure">
+      <option name="closed" value="true" />
+      <created>1735027016319</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1735027016319</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +250,8 @@
     <MESSAGE value="added files" />
     <MESSAGE value="added in src directory test file" />
     <MESSAGE value="added WebTablesTest file in POM Selenide structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="added WebTablesTest file in POM Selenide structure" />
+    <MESSAGE value="added ActionClassTest file in POM Selenide structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="added ActionClassTest file in POM Selenide structure" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
