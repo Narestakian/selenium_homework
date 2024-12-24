@@ -7,4 +7,10 @@
             <class name="WebTablesTest"/>
         </classes>
     </test>
+    <test name="ActionClassTest">
+        <classes><class name="Utils.SetUpClass" />
+
+            <class name="ActionClassTest"/>
+        </classes>
+    </test>
 </suite>

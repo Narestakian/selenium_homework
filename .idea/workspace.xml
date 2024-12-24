@@ -4,33 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b15e0edb-b7b1-4bdf-83b4-f4c3878a2ff9" name="Changes" comment="added in src directory test file">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ElementsSelenide/WebTableTestElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StepsSelenide/WebTableTestSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/chrome-win64/chrome.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/testNG.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/SetUpClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/WebTablesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="b15e0edb-b7b1-4bdf-83b4-f4c3878a2ff9" name="Changes" comment="added WebTablesTest file in POM Selenide structure">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ElementsSelenide/ActionClassTestElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StepsSelenide/ActionClassTestSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ActionClassTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/chromedriver-win64/chromedriver-win64/LICENSE.chromedriver" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/chromedriver-win64/chromedriver-win64/THIRD_PARTY_NOTICES.chromedriver" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/chromedriver-win64/chromedriver-win64/chromedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CommandsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ScrollDownTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ScrollHeightTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SubmitActionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/WaitsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/WebFormsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/allTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chromedriver-win64/chromedriver-win64/chromedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScrollDownTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ScrollHeightTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SubmitActionTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/WaitsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/WebFormsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/allTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/testNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/testNG.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +53,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.ActionClassTest.Task2.executor": "Run",
     "TestNG.C:/Users/narestakian/Desktop/selenium_homework_axali/src/main/testNG.xml.executor": "Run",
     "TestNG.CommandsTest.Task1.executor": "Run",
     "TestNG.CommandsTest.executor": "Run",
@@ -106,10 +86,15 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.WebTablesTest.Task1">
-    <configuration name="WebFormsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WebFormsTest" />
+  <component name="RunManager">
+    <configuration name="ActionClassTest.Task2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-homework" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ActionClassTest" />
+      <option name="METHOD_NAME" value="Task2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -169,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ActionClassTest.Task2" />
         <item itemvalue="TestNG.WebTablesTest.Task1" />
         <item itemvalue="TestNG.SetUpClass.testExample" />
         <item itemvalue="TestNG.CommandsTest.Task1" />
         <item itemvalue="TestNG.CommandsTest" />
-        <item itemvalue="Application.WebFormsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +184,7 @@
       <workItem from="1734789180864" duration="11144000" />
       <workItem from="1734954983092" duration="377000" />
       <workItem from="1734955386823" duration="1800000" />
-      <workItem from="1734957205976" duration="8185000" />
+      <workItem from="1734957205976" duration="11752000" />
     </task>
     <task id="LOCAL-00001" summary="added files">
       <option name="closed" value="true" />
@@ -225,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734172962944</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added WebTablesTest file in POM Selenide structure">
+      <option name="closed" value="true" />
+      <created>1735023528015</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1735023528015</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +239,8 @@
     <MESSAGE value="added WaitsTest class" />
     <MESSAGE value="added files" />
     <MESSAGE value="added in src directory test file" />
-    <option name="LAST_COMMIT_MESSAGE" value="added in src directory test file" />
+    <MESSAGE value="added WebTablesTest file in POM Selenide structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="added WebTablesTest file in POM Selenide structure" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
