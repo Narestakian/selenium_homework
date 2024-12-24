@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AutomationTestSuite">
+
+    <test name="WebTablesTest">
+        <classes><class name="Utils.SetUpClass" />
+            <class name="WebTablesTest"/>
+        </classes>
+
+
+    </test>
+    <test name="ActionClassTest">
+        <classes><class name="Utils.SetUpClass" />
+            <class name="ActionClassTest"/>
+        </classes>
+
+
+    </test>
+    <test name="RobotClassTest">
+        <classes><class name="Utils.SetUpClass" />
+            <class name="RobotClassTest"/>
+        </classes>
+    </test>
+</suite>
