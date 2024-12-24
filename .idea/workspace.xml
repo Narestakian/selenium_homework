@@ -5,8 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b15e0edb-b7b1-4bdf-83b4-f4c3878a2ff9" name="Changes" comment="added in src directory test file">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ElementsSelenide/WebTableTestElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StepsSelenide/WebTableTestSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chrome-win64/chrome.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/testNG.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/SetUpClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WebTablesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/WaitsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WaitsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/chromedriver-win64/chromedriver-win64/LICENSE.chromedriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/chromedriver-win64/chromedriver-win64/THIRD_PARTY_NOTICES.chromedriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/chromedriver-win64/chromedriver-win64/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CommandsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ScrollDownTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ScrollHeightTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SubmitActionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WaitsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WebFormsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/allTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chromedriver-win64/chromedriver-win64/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ScrollDownTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ScrollHeightTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SubmitActionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/WaitsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/WebFormsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/allTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,31 +69,44 @@
     "Application.WebFormsTest.executor": "Run",
     "JUnit.WaitsTest.executor": "Run",
     "JUnit.WebFormsTest.executor": "Run",
+    "Maven.selenium-homework [compile].executor": "Run",
+    "Maven.selenium-homework [install].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/Users/narestakian/Desktop/selenium_homework_axali/src/main/testNG.xml.executor": "Run",
     "TestNG.CommandsTest.Task1.executor": "Run",
     "TestNG.CommandsTest.executor": "Run",
-    "git-widget-placeholder": "commands/day2",
+    "TestNG.SetUpClass.testExample.executor": "Run",
+    "TestNG.WebTablesTest.Task1.executor": "Run",
+    "TestNG.WebTablesTest.executor": "Run",
+    "git-widget-placeholder": "Selenide__day1",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/narestakian/Desktop/selenium-homework/src/main/resources",
+    "last_directory_selection": "C:/Users/narestakian/Desktop/selenium_homework_axali/target/generated-test-sources/test-annotations",
+    "last_opened_file_path": "C:/Users/narestakian/Desktop/selenium_homework_axali/src/main/java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\narestakian\Desktop\selenium_homework_axali\src\main\java" />
+      <recent name="C:\Users\narestakian\Desktop\selenium_homework_axali\src\main\resources" />
       <recent name="C:\Users\narestakian\Desktop\selenium-homework\src\main\resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.WebTablesTest.Task1">
     <configuration name="WebFormsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="WebFormsTest" />
       <module name="selenium-homework" />
@@ -100,13 +137,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SetUpClass.testExample" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Utils" />
+      <option name="MAIN_CLASS_NAME" value="Utils.SetUpClass" />
+      <option name="METHOD_NAME" value="testExample" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebTablesTest.Task1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-homework" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WebTablesTest" />
+      <option name="METHOD_NAME" value="Task1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.WebTablesTest.Task1" />
+        <item itemvalue="TestNG.SetUpClass.testExample" />
         <item itemvalue="TestNG.CommandsTest.Task1" />
         <item itemvalue="TestNG.CommandsTest" />
         <item itemvalue="Application.WebFormsTest" />
-        <item itemvalue="Application.WebFormsTest" />
-        <item itemvalue="TestNG.CommandsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -125,6 +192,14 @@
       <workItem from="1733204258709" duration="2471000" />
       <workItem from="1733309797413" duration="3381000" />
       <workItem from="1733377015325" duration="21171000" />
+      <workItem from="1734777136386" duration="1150000" />
+      <workItem from="1734778320196" duration="3122000" />
+      <workItem from="1734781554602" duration="5414000" />
+      <workItem from="1734787990270" duration="759000" />
+      <workItem from="1734789180864" duration="11144000" />
+      <workItem from="1734954983092" duration="377000" />
+      <workItem from="1734955386823" duration="1800000" />
+      <workItem from="1734957205976" duration="8185000" />
     </task>
     <task id="LOCAL-00001" summary="added files">
       <option name="closed" value="true" />
@@ -172,5 +247,9 @@
     <MESSAGE value="added files" />
     <MESSAGE value="added in src directory test file" />
     <option name="LAST_COMMIT_MESSAGE" value="added in src directory test file" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
