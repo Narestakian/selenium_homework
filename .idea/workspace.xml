@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b15e0edb-b7b1-4bdf-83b4-f4c3878a2ff9" name="Changes" comment="added ActionClassTest file in POM Selenide structure">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ElementsSelenide/RobotClassTestElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StepsSelenide/RobotClassTestSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RobotClassTest.java" afterDir="false" />
+    <list default="true" id="b15e0edb-b7b1-4bdf-83b4-f4c3878a2ff9" name="Changes" comment="added RobotClassTest file in POM Selenide structure">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/testNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/testNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,40 +40,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.WebFormsTest.executor": "Run",
-    "JUnit.WaitsTest.executor": "Run",
-    "JUnit.WebFormsTest.executor": "Run",
-    "Maven.selenium-homework [compile].executor": "Run",
-    "Maven.selenium-homework [install].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.ActionClassTest.Task2.executor": "Run",
-    "TestNG.C:/Users/narestakian/Desktop/selenium_homework_axali/src/main/testNG.xml.executor": "Run",
-    "TestNG.CommandsTest.Task1.executor": "Run",
-    "TestNG.CommandsTest.executor": "Run",
-    "TestNG.RobotClassTest.Task3.executor": "Run",
-    "TestNG.SetUpClass.testExample.executor": "Run",
-    "TestNG.WebTablesTest.Task1.executor": "Run",
-    "TestNG.WebTablesTest.executor": "Run",
-    "git-widget-placeholder": "Selenide__day1",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/Users/narestakian/Desktop/selenium_homework_axali/target/generated-test-sources/test-annotations",
-    "last_opened_file_path": "C:/Users/narestakian/Desktop/selenium_homework_axali/src/main/java",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.WebFormsTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WaitsTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WebFormsTest.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.selenium-homework [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.selenium-homework [install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.ActionClassTest.Task2.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/narestakian/Desktop/selenium_homework_axali/src/main/testNG.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CommandsTest.Task1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CommandsTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RobotClassTest.Task3.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SetUpClass.testExample.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.WebTablesTest.Task1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.WebTablesTest.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Selenide__day1&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/narestakian/Desktop/selenium_homework_axali/target/generated-test-sources/test-annotations&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/narestakian/Desktop/selenium_homework_axali/src/main/java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\narestakian\Desktop\selenium_homework_axali\src\main\java" />
@@ -156,8 +153,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.RobotClassTest.Task3" />
         <item itemvalue="TestNG.ActionClassTest.Task2" />
+        <item itemvalue="TestNG.RobotClassTest.Task3" />
         <item itemvalue="TestNG.WebTablesTest.Task1" />
         <item itemvalue="TestNG.SetUpClass.testExample" />
         <item itemvalue="TestNG.CommandsTest.Task1" />
@@ -186,7 +183,8 @@
       <workItem from="1734789180864" duration="11144000" />
       <workItem from="1734954983092" duration="377000" />
       <workItem from="1734955386823" duration="1800000" />
-      <workItem from="1734957205976" duration="15468000" />
+      <workItem from="1734957205976" duration="16833000" />
+      <workItem from="1735047787496" duration="3991000" />
     </task>
     <task id="LOCAL-00001" summary="added files">
       <option name="closed" value="true" />
@@ -228,7 +226,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735027016319</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added RobotClassTest file in POM Selenide structure">
+      <option name="closed" value="true" />
+      <created>1735031524628</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1735031524628</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,7 +257,8 @@
     <MESSAGE value="added in src directory test file" />
     <MESSAGE value="added WebTablesTest file in POM Selenide structure" />
     <MESSAGE value="added ActionClassTest file in POM Selenide structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="added ActionClassTest file in POM Selenide structure" />
+    <MESSAGE value="added RobotClassTest file in POM Selenide structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="added RobotClassTest file in POM Selenide structure" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
