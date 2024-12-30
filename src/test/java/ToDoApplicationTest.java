@@ -20,7 +20,6 @@ public class ToDoApplicationTest extends SetUp {
         toDoApplicationSteps.moveOnButton();
         toDoApplicationSteps.deleteSecondTask();
         toDoApplicationSteps.checkLeftTasks();
-        Thread.sleep(30000);
         assertFalse(toDoApplicationSteps.isTaskDeleted("Go to potion class"), "Deleted task is still present!");
 
 
