@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AutomationTestSuite">
+    <test name="CommandsTest">
+        <classes>
+            <class name="CommandsTest"/>
+        </classes>
+    </test>
+    <test name="HoverTest">
+        <classes>
+            <class name="HoverTest"/>
+        </classes>
+    </test>
+    <test name="RobotTest">
+        <classes>
+            <class name="RobotTest"/>
+        </classes>
+    </test>
+    <test name="ScrollDownTest">
+        <classes>
+            <class name="ScrollDownTest"/>
+        </classes>
+    </test>
+    <test name="ScrollHeightTest">
+        <classes>
+            <class name="ScrollHeightTest"/>
+        </classes>
+    </test>
+    <test name="SubmitActionTest">
+        <classes>
+            <class name="SubmitActionTest"/>
+        </classes>
+    </test>
+    <test name="WaitsTest">
+        <classes>
+            <class name="WaitsTest"/>
+        </classes>
+    </test>
+    <test name="WebFormsTest">
+        <classes>
+            <class name="WebFormsTest"/>
+        </classes>
+    </test>
+    <test name="WebTablesTest">
+        <classes>
+            <class name="WebTablesTest"/>
+        </classes>
+    </test>
+</suite>
